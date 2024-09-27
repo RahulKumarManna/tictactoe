@@ -1,0 +1,44 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; 
+    width: 100%;
+    max-width: 500px; 
+    margin: auto;
+    justify-content: center;
+}
+
+.grid-wrapper {
+    text-align: center;
+}
+
+.turn-highlight {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.reset {
+    background-color: var(--cyan);
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reset:hover {
+    background-color: white;
+    color: var(--cyan);
+}
+
+@media (max-width: 768px) {
+    .grid {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .grid {
+        max-width: 250px;
+    }
+}
