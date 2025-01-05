@@ -1,10 +1,30 @@
 # Tic-Tac-Toe Game
 
-A simple implementation of the classic Tic-Tac-Toe game using **React.js**. The game allows two players to compete against each other, taking turns to mark the squares on a 3x3 grid. The first player to align three marks horizontally, vertically, or diagonally wins!
+A modern **Tic-Tac-Toe** game built with **React**. This project allows two players to play the classic game simultaneously on the same device. It features a clean and responsive design with an intuitive interface powered by **React** and **React Icons**.
 
 ## Features
-- **Interactive User Interface**: React.js is used for creating a dynamic and interactive UI.
-- **Two-Player Game**: Players alternate turns, with a clear indication of whose turn it is.
-- **Winner Detection**: The game automatically detects the winner or a draw once all squares are filled.
-- **Reset Option**: Players can reset the game to start a new round.
 
+- **Multiplayer Mode**: Two players can play simultaneously in local multiplayer mode.
+- **Responsive Design**: Optimized for both desktop and mobile views.
+- **React Icons**: For a stylish UI using **React Icons**.
+- **React**: Built using **React** for a dynamic, component-based architecture.
+
+## Live Demo
+
+You can try the game here: [Live Demo](https://rahulmanna-tictactoe.netlify.app/)
+
+## Technologies Used
+
+- **React**: The UI is built using **React** for efficient component-based architecture.
+- **React Icons**: For adding simple and clean icons to enhance the UI.
+- **HTML5**: Structuring the web page with semantic elements.
+- **CSS3**: Styling the application for responsive and sleek design.
+- **JavaScript**: For game logic and functionality.
+
+## Installation
+
+To run this project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/rahulkumarmanna/tictactoe.git
